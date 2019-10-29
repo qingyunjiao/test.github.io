@@ -1,0 +1,8 @@
+name: My Jekyll Website
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+title: ACME Website

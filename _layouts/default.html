@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="alternate" type="application/rss+xml"  href="{{ site.url }}/feed.xml" title="{{ site.title }}">
+
+</head>
+  <body>
+     {{ content }}
+<h1>{{ "/assets/style.css" | absolute_url }}</h1>
+{{ "/assets/style.css" | relative_url }}
+  </body>
+</html>
